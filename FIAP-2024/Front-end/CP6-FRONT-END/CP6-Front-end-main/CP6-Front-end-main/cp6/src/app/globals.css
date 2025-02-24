@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    body {
+        @apply bg-blue-950;
+    }
+
+    .cabecalho {
+            @apply bg-blue-400 p-4 text-white;
+    }
+}

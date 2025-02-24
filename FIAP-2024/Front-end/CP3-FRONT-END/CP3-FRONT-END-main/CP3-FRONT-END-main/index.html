@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="shortcut icon" href="./assets/img/trevo.png" type="image/x-icon">
+    <title>DoaTech - Início</title> 
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>DoaTech</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Dados do Usuário</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Seja Bem Vindo!</h2>
+                <p>Ajude quem mais precisa, Seja parte da mudança.</p>
+                <a href="#" class="button">Doe Hoje</a>
+            </div>
+        </section>
+        <footer class="rodape">
+            <div id="userDetails" class="user-details">
+                <h3>Dados do Usuário</h3>
+                <p>Email: <span id="emailDisplay"></span></p>
+                <p>Senha: <span id="passwordDisplay"></span></p>
+            </div>
+            <button class="logout-button" id="logoutButton">
+                <img src="./assets/img/power.png" alt="Power Icon" class="power-icon">
+                Deslogar
+            </button>
+        </footer>
+
+    </div>
+
+    <script>
+        const email = localStorage.getItem('email');
+        const password = localStorage.getItem('password');
+
+        if (email && password) {
+            document.getElementById('emailDisplay').textContent = email;
+            document.getElementById('passwordDisplay').textContent = password;
+        } else {
+            window.location.href = 'login.html';
+        }
+
+        document.getElementById('logoutButton').addEventListener('click', function() {
+            localStorage.removeItem('email');
+            localStorage.removeItem('password');
+            window.location.href = 'login.html';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+@import url(https://db.onlinewebfonts.com/c/b1030670fe2c54b8736af23bcf6bd166?family=Gotham+HTF+Light);
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(8, 8, 8);
+    font-family: "Gotham HTF Light";
+}
+
+h1, h2{
+    margin: 5px;
+    color: #15ff47;
+    margin: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    color: #abc1cd;
+    margin: 30px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}

@@ -1,0 +1,67 @@
+
+/* Tag */
+h1, h2 {
+    color: #318021;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Class */
+.link {
+    color: #318021;
+}
+
+ul .link {
+    color: #e8240e;
+    /* border: 2px solid #e8240e; */
+    display: inline;
+    margin: 0 3%;
+
+    /* Nesting links */
+    a{
+        text-decoration: none;
+        color: #e8240e;
+    }
+
+}
+
+p {
+    color: #318021;
+}
+
+#conteudo {
+    line-height: 1.5;
+}
+#contact {
+    border: solid 1px gray;
+    padding: 10px;
+}
+
+nav {
+    font-weight: bolder;
+}
+
+#cabecalho {
+    background-color: blue;
+}
+
+#menu ul{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/* ID */
+#container {
+    width: 80%;
+    height: 100%;
+    border: 2px solid #000;
+    margin: 20px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+}
+
+.rodape {
+    border-top: solid 2px red;
+}

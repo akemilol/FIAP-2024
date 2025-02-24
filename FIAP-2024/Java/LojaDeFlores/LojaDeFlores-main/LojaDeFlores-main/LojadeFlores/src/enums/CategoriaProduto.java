@@ -1,0 +1,12 @@
+package enums;
+
+public enum CategoriaProduto {
+    FLORES_FRESCAS,
+    PLANTAS_EM_VASO,
+    ARRANJOS_FLORAIS,
+    CESTAS_E_BUQUES,
+    KIT_JARDINAGEM,
+    CARTOES_E_PRESENTES,
+    FLORES_ARTIFICIAIS,
+    SERVICOS
+}
