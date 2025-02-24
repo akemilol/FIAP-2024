@@ -25,6 +25,34 @@ O objetivo deste repositório é centralizar o material produzido durante o curs
 - ✨ **VSCode** (Front-End)
 - 🏗️ **IntelliJ IDEA** (Back-End)
 
+#
+
+# FIAP-2024
+
+This repository gathers projects and exams conducted from the 1st to the 2nd semester of the **Systems Analysis and Development** course at **FIAP 2024.**
+
+## 💡 **About the Project**
+
+The purpose of this repository is to centralize the material produced during the course, facilitating access and organization of the content, divided into:
+- **Checkpoints (CP):** Exams conducted throughout the semester to assess learning.
+- **Global Solution:** A semester-long integrative project that applies the acquired knowledge.
+
+---
+
+## 🛠️ **Technologies Used**
+
+### **Languages and Frameworks**
+- 💻 **Java** (CRUD)
+- 🌐 **JavaScript** and **TypeScript** (Front-End)
+- ⚛️ **React** (Front-End Framework)
+
+### **Version Control Tools**
+- 🗂️ **Git**
+- 🌎 **GitHub**
+
+### **IDEs**
+- ✨ **VSCode** (Front-End)
+- 🏗️ **IntelliJ IDEA** (Back-End)
 
 
 
